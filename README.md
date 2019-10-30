@@ -7,5 +7,5 @@ This website provides information regarding the philodendron genus of plants. In
 
 Features:
 
-* Detailed photographs and growing advice for collectors and researchers
-* Responsive layout ensures site displays correctly across all devices
+* Detailed photographs and growing advice for collectors and researchers.
+* Responsive layout ensures site displays correctly across all devices.
