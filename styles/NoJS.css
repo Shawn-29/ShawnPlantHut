@@ -1,0 +1,65 @@
+/* When JavaScript is disabled, the photo gallery functions by the
+	user hovering over icons rather than by clicking on them */
+
+/* button[id^="smallPhoto"]:focus {
+	outline: 2px dotted #f00;
+} */
+
+.thumbnail:focus {
+	outline: 2px dotted #f00;	
+}
+
+/* .thumbnail:active {
+	border: 4px solid purple;
+} */
+
+button[id^="smallPhoto"]:hover {
+	outline: 2px solid #0f0;
+	z-index: 1;
+	cursor: default;
+}
+
+#smallPhoto2:hover ~#smallPhoto1,
+#smallPhoto3:hover ~#smallPhoto1,
+#smallPhoto4:hover ~#smallPhoto1 {
+	outline: 2px dotted #f00;
+	z-index: 0;
+}
+
+#smallPhoto2:hover ~#largePhoto1,
+#smallPhoto3:hover ~#largePhoto1,
+#smallPhoto4:hover ~#largePhoto1  {
+	display: none;
+}
+
+#smallPhoto2:hover ~#largePhoto2,
+#smallPhoto3:hover ~#largePhoto3,
+#smallPhoto4:hover ~#largePhoto4 {
+	display: inline;
+}
+
+
+/* button[id^="smallPhoto"]:active {
+	outline: 2px solid #0f0;
+	z-index: 1;
+	cursor: default;
+}
+
+#smallPhoto2:active ~#smallPhoto1,
+#smallPhoto3:active ~#smallPhoto1,
+#smallPhoto4:active ~#smallPhoto1 {
+	outline: 2px dotted #f00;
+	z-index: 0;
+}
+
+#smallPhoto2:active ~#largePhoto1,
+#smallPhoto3:active ~#largePhoto1,
+#smallPhoto4:active ~#largePhoto1  {
+	display: none;
+}
+
+#smallPhoto2:active ~#largePhoto2,
+#smallPhoto3:active ~#largePhoto3,
+#smallPhoto4:active ~#largePhoto4 {
+	display: inline;
+} */
