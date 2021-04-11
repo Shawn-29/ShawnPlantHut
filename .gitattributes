@@ -1,1 +1,1 @@
-My .gitattributes:
+*.php linguist-language=php
