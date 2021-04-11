@@ -1,1 +1,4 @@
+# For php files with no php code, such as those used for dynamic insertion of HTML headers and footers,
+# instruct GitHub's Linguist to correctly identify the extension on these files as php rather than
+# Facebook's php dialect, Hack
 *.php linguist-language=php
